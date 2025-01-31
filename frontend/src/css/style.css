@@ -1,0 +1,23 @@
+body {
+	background-color: rgba(12, 117, 46, 0.6);
+}
+h1 {
+	background-color: rgba(118, 117, 135, 0.6);
+}
+table, th, td {
+	border: 1px dotted rgba(18, 160, 15, 1);
+	border-collapse: collapse;
+	
+}
+table
+{
+	width:100%;
+}
+th, td {
+  background-color: #96D4D4;
+  border-radius: 10px;
+}
+.grid-container {
+	display: grid;	
+	grid-template-columns: 33% 33% 33%;
+}
